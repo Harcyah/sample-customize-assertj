@@ -1,10 +1,10 @@
 package com.harcyah.sample.customize_assertj;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static com.harcyah.sample.customize_assertj.Assertions.assertThat;
 
-public class CarTest {
+class CarTest {
 
     @Test
     public void testCar() {

@@ -1,12 +1,12 @@
 package com.harcyah.sample.customize_assertj;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.awt.Color;
 
 import static com.harcyah.sample.customize_assertj.Assertions.assertThat;
 
-public class FruitTest {
+class FruitTest {
 
     @Test
     public void testCar() {
