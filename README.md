@@ -1,3 +1,3 @@
-# Code-samples: customize-assertj
+# sample-customize-assertj
 
 Shows how to pimp assertj generated assertions.
