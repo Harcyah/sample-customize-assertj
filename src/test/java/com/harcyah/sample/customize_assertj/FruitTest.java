@@ -9,7 +9,7 @@ import static com.harcyah.sample.customize_assertj.Assertions.assertThat;
 class FruitTest {
 
     @Test
-    public void testCar() {
+    void testCar() {
         Fruit fruit = new Fruit("Foo", Color.RED);
         assertThat(fruit)
             .hasName("Foo")

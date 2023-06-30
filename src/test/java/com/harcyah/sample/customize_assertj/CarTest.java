@@ -7,7 +7,7 @@ import static com.harcyah.sample.customize_assertj.Assertions.assertThat;
 class CarTest {
 
     @Test
-    public void testCar() {
+    void testCar() {
         Car car = new Car("Foo", "Bar");
         assertThat(car)
             .hasBrand("Foo")
